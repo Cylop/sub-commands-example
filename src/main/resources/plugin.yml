@@ -1,0 +1,9 @@
+name: ${project.artifactId}
+version: ${project.version}
+author: 404NameNotFound
+main: SubCommandPlugin
+
+commands:
+  test:
+    usage: /<command>
+    description: Test Command
